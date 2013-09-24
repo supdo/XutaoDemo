@@ -52,6 +52,8 @@ public class MainListActivity extends ListActivity {
         menu.setShadowDrawable(R.drawable.shadow);
         menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
         menu.setFadeDegree(0.35f);
+        //menu.setBehindWidth(R.dimen.menu_width);
+        //menu.requestLayout();
         menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
         menu.setMenu(R.layout.slide_menu);
     }
